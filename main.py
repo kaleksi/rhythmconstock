@@ -54,8 +54,11 @@ yuan_groove()
 special_char = "-"
 #GAMO2 POP'N MUSIC CONTROLLER
 def gamo_pop():
-    driver.get('https://www.gamo2.com/en/index.php?dispatch=products.view&product_id=319')
-    gc = driver.find_element_by_xpath('//*[@id="out_of_stock_info_319"]').text
+    driver.get('https://www.gamo2.com/en/index.php?dispatch=products.view&product_id=249')
+    try:
+        gc = driver.find_element_by_xpath('//*[@id="out_of_stock_info_249"]').text
+    except:
+        gc = driver.find_element_by_xpath('//*[@id="in_stock_info_249"]').text
     #Removing "-"
     for x in special_char:
         gc = gc.replace(x, " ")
@@ -66,7 +69,10 @@ gamo_pop()
 
 def gamo_sdvx():
     driver.get('https://www.gamo2.com/en/index.php?dispatch=products.view&product_id=320')
-    gc = driver.find_element_by_xpath('//*[@id="out_of_stock_info_320"]').text
+    try:
+        gc = driver.find_element_by_xpath('//*[@id="out_of_stock_info_320"]').text
+    except:
+        gc = driver.find_element_by_xpath('//*[@id="in_stock_info_320"]').text
 
     for x in special_char:
         gc = gc.replace(x, " ")
@@ -77,7 +83,10 @@ gamo_sdvx()
 
 def gamo_jubeat():
     driver.get('https://www.gamo2.com/en/index.php?dispatch=products.view&product_id=321')
-    gc = driver.find_element_by_xpath('//*[@id="out_of_stock_info_321"]').text
+    try:
+        gc = driver.find_element_by_xpath('//*[@id="out_of_stock_info_321"]').text
+    except:
+        gc = driver.find_element_by_xpath('//*[@id="in_stock_info_321"]').text
 
     for x in special_char:
         gc = gc.replace(x, " ")
@@ -88,7 +97,10 @@ gamo_jubeat()
 
 def gamo_phoenix():
     driver.get('https://www.gamo2.com/en/index.php?dispatch=products.view&product_id=348')
-    gc = driver.find_element_by_xpath('//*[@id="out_of_stock_info_348"]').text
+    try:
+        gc = driver.find_element_by_xpath('//*[@id="out_of_stock_info_348"]').text
+    except:
+        gc = driver.find_element_by_xpath('//*[@id="in_stock_info_348"]').text
 
     for x in special_char:
         gc = gc.replace(x, " ")
@@ -99,7 +111,10 @@ gamo_phoenix()
 
 def gamo_ezmax():
     driver.get('https://www.gamo2.com/en/index.php?dispatch=products.view&product_id=349')
-    gc = driver.find_element_by_xpath('//*[@id="out_of_stock_info_349"]').text
+    try:
+        gc = driver.find_element_by_xpath('//*[@id="out_of_stock_info_349"]').text
+    except:
+        gc = driver.find_element_by_xpath('//*[@id="in_stock_info_349"]').text
 
     for x in special_char:
         gc = gc.replace(x, " ")
@@ -110,7 +125,10 @@ gamo_ezmax()
 
 def gamo_diva():
     driver.get('https://www.gamo2.com/en/index.php?dispatch=products.view&product_id=355')
-    gc = driver.find_element_by_xpath('//*[@id="out_of_stock_info_355"]').text
+    try:
+        gc = driver.find_element_by_xpath('//*[@id="out_of_stock_info_355"]').text
+    except:
+        gc = driver.find_element_by_xpath('//*[@id="in_stock_info_355"]').text
 
     for x in special_char:
         gc = gc.replace(x, " ")
@@ -121,7 +139,10 @@ gamo_diva()
 
 def gamo_gitadora():
     driver.get('https://www.gamo2.com/en/index.php?dispatch=products.view&product_id=358')
-    gc = driver.find_element_by_xpath('//*[@id="out_of_stock_info_358"]').text
+    try:
+        gc = driver.find_element_by_xpath('//*[@id="out_of_stock_info_358"]').text
+    except:
+        gc = driver.find_element_by_xpath('//*[@id="in_stock_info_358"]').text
 
     for x in special_char:
         gc = gc.replace(x, " ")

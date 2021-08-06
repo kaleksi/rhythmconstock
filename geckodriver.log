@@ -805,3 +805,72 @@ JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1628223260234	geckodriver	INFO	Listening on 127.0.0.1:48235
+1628223261235	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXLrO8o"
+1628223263585	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXLrO8o/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+1628223266735	Marionette	INFO	Listening on port 41229
+1628223266838	Marionette	WARN	TLS certificate errors will be ignored for this session
+1628223315196	Marionette	INFO	Stopped listening on port 41229
+1628223492054	geckodriver	INFO	Listening on 127.0.0.1:36827
+1628223492060	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledWd3aW"
+1628223493010	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledWd3aW/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+1628223495896	Marionette	INFO	Listening on port 36629
+1628223496023	Marionette	WARN	TLS certificate errors will be ignored for this session
+1628223621058	geckodriver	INFO	Listening on 127.0.0.1:33821
+1628223621065	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSi2ELJ"
+1628223621874	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSi2ELJ/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+1628223624417	Marionette	INFO	Listening on port 42381
+1628223624514	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://fonts.googleapis.com/css?family=Open+Sans:400,700 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://fonts.googleapis.com/css?family=Ubuntu:500 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://fonts.googleapis.com/css?family=Oswald without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 108: Error: Got a request https://www.gamo2.com/en/var/cache/misc/statics/design/themes/classyshop/css/standalone.4b3e09f9e6809a15e7c42ebee34acc371556415072.css without a browsingContextID set
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.info: MINT: main/search-config update being skipped
+1628223864386	geckodriver	INFO	Listening on 127.0.0.1:34531
+1628223864393	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVqwoO3"
+1628223865263	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVqwoO3/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+1628223868141	Marionette	INFO	Listening on port 37105
+1628223868252	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.info: MINT: main/search-config update being skipped
